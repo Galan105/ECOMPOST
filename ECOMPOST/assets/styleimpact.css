@@ -1,0 +1,168 @@
+/* Reset de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuentes y colores generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header y navegación */
+header {
+    background-color: #2c7a4e;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Introducción */
+.intro {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e6f7e6;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2c7a4e;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Estadísticas */
+.statistics {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.statistics h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #2c7a4e;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.stat {
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.stat-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Proyectos Destacados */
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.projects h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #2c7a4e;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-image {
+    width:50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Gráfico */
+.chart {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.chart h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #2c7a4e;
+}
+
+.chart-image {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #2c7a4e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}

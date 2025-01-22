@@ -1,0 +1,91 @@
+/* Reset de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+main {
+    min-height: calc(100vh - 140px); /* Ajusta el valor según la altura del header y footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Fuentes y colores generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header y navegación */
+header {
+    background-color: #2c7a4e;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Introducción */
+.intro {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e6f7e6;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2c7a4e;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.intro strong {
+    font-weight: bold;
+    color: #2c7a4e;
+}
+
+/* Footer */
+footer {
+    background-color: #2c7a4e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
